@@ -4,7 +4,7 @@
 
 #### OBJETIVOS:
 
-Desenvolver um calculadora simples que servisse para exercitar os conhecimentos adquiridos.
+Desenvolver uma calculadora simples que servisse para exercitar os conhecimentos adquiridos.
 
 
 
