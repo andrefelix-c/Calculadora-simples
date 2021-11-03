@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://kit.fontawesome.com/c0e12a2e03.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="calculadora">
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <th colspan="2"><button onclick="clean()" class="gray">C</button></th>
+                    <th><button onclick="back()" class="gray"><i class="fas fa-less-than"></i></button></th>
+                    <th><button onclick="insert('/')" class="orange"><i class="fas fa-divide"></i></button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="insert('7')">7</button></th>
+                    <th><button onclick="insert('8')">8</button></th>
+                    <th><button onclick="insert('9')">9</button></th>
+                    <th><button  onclick="insert('*')" class="orange"><i class="fas fa-times"></i></button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="insert('4')">4</button></th>
+                    <th><button onclick="insert('5')">5</button></th>
+                    <th><button onclick="insert('6')">6</button></th>
+                    <th><button onclick="insert('-')" class="orange"><i class="fas fa-minus"></i></button></th>
+                </tr>
+                <tr>
+                    <th><button onclick="insert('1')">1</button></th>
+                    <th><button onclick="insert('2')">2</button></th>
+                    <th><button onclick="insert('3')">3</button></th>
+                    <th><button onclick="insert('+')" class="orange"><i class="fas fa-plus"></i></button></th>
+                </tr>
+                <tr>
+                    <th colspan="2" ><button onclick="insert('0')">0</button></th>
+                    <th><button onclick="insert('.')">.</button></th>
+                    <th colspan="1"><button onclick="calcular()" class="orange"><i class="fas fa-equals"></i></button></th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Desenvolvido por Francisco André &copy</p>
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
